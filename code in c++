@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,c,n,i,x;
+    float y,b;
+    x=1;
+    cout<<"Enter cooficient of x*x, a=";
+    cin>>a;
+    cout<<"Enter cooficient of x, b=";
+    cin>>b;
+    cout<<"Enter cooficient of constant, c=";
+    cin>>c;
+    cout<<"Enter number of points=";
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        y=(-c-a*x)/b;
+        cout<<y<<endl;
+        x=x+2;
+    }
+    return 0;
+}
