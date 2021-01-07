@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int a,c,n,i,x;
+    float y,b;
+    x=1;
+    printf("Enter cooficient of x*x, a=");
+    scanf("%d",&a);
+    printf("Enter cooficient of x, b=");
+    scanf("%f",&b);
+    printf("Enter constant, c=");
+    scanf("%d",&c);
+    printf("Enter n=");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        y=(-c-a*x)/b;
+        printf("%f\n",y);
+        x=x+2;
+    }
+    return 0;
+}
