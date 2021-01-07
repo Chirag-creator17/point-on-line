@@ -1,0 +1,9 @@
+a=int(input("enter value of a:"))
+b=float(input("enter value of b:"))
+c=int(input("enter value of c:"))
+n=int(input("enter value of n:"))
+x=1
+for i in range(1,n+1):
+    y=(-c-(a*x))/b
+    print(y)
+    x=x+2
